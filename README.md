@@ -2,8 +2,8 @@
 
 This application is a simple qr code generator.
 
-![image](https://user-images.githubusercontent.com/96506145/177992912-4879dbd6-93a8-4aa0-a8a1-e1293b4bec13.png)
-![image](https://user-images.githubusercontent.com/96506145/177992867-9daffb1b-2931-4470-a485-9f79e7bf7e7a.png)
+![image](https://user-images.githubusercontent.com/96506145/177994187-7bc34684-da9e-4cff-b2a7-60af4ad755d0.png)
+![image](https://user-images.githubusercontent.com/96506145/177994402-7ea1b013-a098-4841-9c2b-ae42c6f89314.png)
 
 [Click here to view](https://charllyslima.github.io/qrcode-generator/)
 
