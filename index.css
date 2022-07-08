@@ -25,6 +25,7 @@ body {
 .card {
     width: 100%;
     height: 500px;
+    min-width: 350px;
 }
 
 .card-header {
@@ -123,4 +124,9 @@ body {
 
 .d-none {
     display: none;
+}
+
+.copyright{
+    position: absolute;
+    bottom: 10px;
 }
