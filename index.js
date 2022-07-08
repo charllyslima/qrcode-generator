@@ -8,7 +8,7 @@ let imgQrCode = document.getElementById("qr");
 let inputText = document.getElementById("text");
 let msgError = document.getElementById("error");
 
-
+/* events */
 buttonGenerate.addEventListener("click", (e) => {
     clear();
     let text = document.getElementById("text").value;
@@ -25,8 +25,9 @@ buttonGenerate.addEventListener("click", (e) => {
 
 buttonDownload.addEventListener("click", (e) => {
     download(imgQrCode.getAttribute("src"));
-})
+});
 
+/* function */
 function generateQrCode(text, size) {
     const uri = `${uriApi}?data=${text}&size=${size}`;
     imgQrCode.setAttribute("src", uri);
@@ -41,8 +42,8 @@ function clear() {
     buttonDownload.classList.add("d-none");
 }
 
-function download(uriImage){
-    var a = document.createElement('a');
+function download(uriImage) {
+    var a = document.createElement("a");
     a.href = uriImage;
     a.target = "_blank";
     a.download = "qrcode.png";
